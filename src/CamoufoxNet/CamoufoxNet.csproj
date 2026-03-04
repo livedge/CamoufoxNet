@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>CamoufoxNet</RootNamespace>
+    <AssemblyName>CamoufoxNet</AssemblyName>
+    <PackageId>CamoufoxNet</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>livedge</Authors>
+    <Description>C# wrapper for Camoufox anti-detect browser using Microsoft.Playwright</Description>
+    <PackageProjectUrl>https://github.com/livedge/CamoufoxNet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/livedge/CamoufoxNet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>camoufox;playwright;anti-detect;browser;fingerprint;automation</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="CamoufoxNet.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Playwright" Version="1.50.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\launch_bridge.py" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
