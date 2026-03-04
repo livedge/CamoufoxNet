@@ -1,5 +1,10 @@
 # CamoufoxNet
 
+[![Build](https://github.com/livedge/CamoufoxNet/actions/workflows/build.yml/badge.svg)](https://github.com/livedge/CamoufoxNet/actions/workflows/build.yml)
+[![NuGet](https://img.shields.io/nuget/v/CamoufoxNet.svg)](https://www.nuget.org/packages/CamoufoxNet)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/CamoufoxNet.svg)](https://www.nuget.org/packages/CamoufoxNet)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 C# wrapper for [Camoufox](https://github.com/nicedayzhu/camoufox) anti-detect browser using Microsoft.Playwright.
 
 ## Prerequisites
